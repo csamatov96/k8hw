@@ -20,3 +20,6 @@ spec:
           cpu: "200m"
     ports:
     - containerPort: 9090
+
+    #Warning  FailedScheduling  18s (x3 over 80s)  default-scheduler  0/3 nodes are available: 1 Insufficient cpu, 3 Insufficient memory.
+    
