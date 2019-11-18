@@ -4,9 +4,9 @@ metadata:
   name: web 
 kind: Pod
 metadata:
-  name: myappRedis 
+  name: myapp-redis 
   labels:
-    run: myappRedis-pod-labeled 
+    run: myapp-redis-pod-labeled 
 spec:
   containers:
   - image: redis 
