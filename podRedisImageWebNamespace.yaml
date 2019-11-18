@@ -6,11 +6,10 @@ metadata:
 apiVersion: v1 
 kind: Pod
 metadata:
-  name: myapp-redis 
+  name: myapp-redis
+  namespace: web  
   labels:
     run: myapp-redis-pod-labeled 
-  namespace: 
-    name: web 
 spec:
   containers:
   - image: redis 
